@@ -1,0 +1,66 @@
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.c-1 {
+  height: 1rem;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.input-field {
+  height: 2rem;
+  width: 80%;
+  font-size: 20px;
+  border-radius: 5px;
+}
+.sub-btn {
+  height: 2.5rem;
+  width: 4em;
+  background-color: rgb(65, 65, 196);
+  border-radius: 5px;
+}
+.chip-container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.chip-div {
+  height: 2rem;
+  width: 60%;
+  padding: 10px;
+  margin: 10px;
+  background-color: #b67d7d;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.chipitem {
+  font-size: 30px;
+}
+.chip-btns {
+  display: flex;
+  gap: 1rem;
+}
+.editbtn {
+  background-color: #b67d7d;
+  height: 20px;
+  color: white;
+}
+.delbtn {
+  background-color: red;
+  height: 20px;
+  color: white;
+}
